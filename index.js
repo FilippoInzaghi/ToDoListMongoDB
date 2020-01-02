@@ -98,6 +98,10 @@ function doTheToDo(todosCollection) {
     case "done":
       markTaskAsDone(todosCollection, args[0]);
       break;
+    default:
+      console.log('Wrong command, please correct');
+      client.close()
+      break;
   }
 }
 
