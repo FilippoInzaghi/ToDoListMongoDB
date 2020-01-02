@@ -1,0 +1,22 @@
+{
+  "name": "todolistmongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilippoInzaghi/ToDoListMongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FilippoInzaghi/ToDoListMongoDB/issues"
+  },
+  "homepage": "https://github.com/FilippoInzaghi/ToDoListMongoDB#readme",
+  "dependencies": {
+    "mongodb": "^3.4.1"
+  }
+}
